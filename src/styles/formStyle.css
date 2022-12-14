@@ -1,0 +1,23 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin: 10px 15px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+}
+
+#submitRequest {
+    background-color: #464fa0;
+    margin: 10px 0 0 15px;
+    width: 140px;
+}

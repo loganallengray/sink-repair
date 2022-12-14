@@ -1,0 +1,42 @@
+@import "formStyle.css";
+@import "requestStyle.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/* Browser Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Button and Select Styling */
+.button, .select {
+    padding: 5px;
+}
+
+.button {
+	color: #fff;
+}
+
+/* Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+/* Headers */
+
+h1, h2 {
+	margin: 10px 10px 0 10px;
+}

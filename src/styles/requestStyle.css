@@ -1,0 +1,87 @@
+/* Main Request Container */
+.requestContainer {
+    border: solid 1px #6b7a88;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px 15px;
+}
+
+/* Flexbox for list items */
+.exampleItems, .requestContainer li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.description {
+    width: 100%;
+}
+
+.reqOptions {
+    display: flex;
+    justify-content: space-around;
+    min-width: 200px;
+    width: 15%;
+}
+
+/* Example Coloring, width, flexbox and margins */
+.exampleItems {
+    background-color: #6b7a88;
+    color: #fff;
+}
+
+.exampleItems .description {
+    margin: 10px;
+}
+
+.exampleItems .reqOptions {
+    justify-content: flex-start;
+}
+
+.requestContainer li::before {
+    content: "🛠️";
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+/* Request Coloring and margins */
+.requestContainer li {
+    padding: 5px 10px;
+}
+
+.request__delete {
+    background-color: #a648dc;
+}
+
+.completion__delete {
+    background-color: #D39D45;
+}
+
+/* Request Alternating Colors */
+.requestListItem:nth-child(odd) {
+    background-color: #fff;
+}
+
+.requestListItem:nth-child(even) {
+    background-color: #ebe9e9;
+}
+
+/* Completion background colors. */
+
+.completionListItem {
+    background-color: #fbd3d2;
+} 
+
+/* Fixing plumber options spacing */
+.plumbers {
+    width: 50%;
+    min-width: 90px;
+    text-align: center;
+}
+
+.comp__plumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

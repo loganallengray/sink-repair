@@ -1,0 +1,76 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 4,
+      "plumberId": 2,
+      "date_created": 1671031960050,
+      "id": 3
+    },
+    {
+      "requestId": 5,
+      "plumberId": 2,
+      "date_created": 1671036922643,
+      "id": 4
+    },
+    {
+      "requestId": 6,
+      "plumberId": 1,
+      "date_created": 1671052307796,
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "description": "Meine Badewanne ist undicht.",
+      "address": "1999 ",
+      "budget": "800",
+      "neededBy": "2022-12-16",
+      "id": 2
+    },
+    {
+      "description": "Die Toilette funktioniert nicht und ich muss kacken.",
+      "address": "1061 Vunderbar St",
+      "budget": "500",
+      "neededBy": "2022-12-19",
+      "id": 3
+    },
+    {
+      "description": "Spülwasser ist braun und schmeckt nach Dr. Pepper.",
+      "address": "7281 Javul St",
+      "budget": "1000",
+      "neededBy": "2022-12-21",
+      "id": 4
+    },
+    {
+      "description": "Das Rohr in meinem Keller ist geplatzt und überall dampft es.",
+      "address": "1782 Wahaha Ln",
+      "budget": "1500",
+      "neededBy": "2022-12-15",
+      "id": 5
+    },
+    {
+      "description": "In meiner Toilette ist ein Käfer und ich brauche jemanden, der ihn ausspült.",
+      "address": "1392",
+      "budget": "500",
+      "neededBy": "2022-12-23",
+      "id": 6
+    }
+  ]
+}
